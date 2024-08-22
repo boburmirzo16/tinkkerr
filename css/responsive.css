@@ -1,0 +1,17 @@
+
+@media only screen and (max-width:768px) {  
+    .navbar__nav .fa-bars{
+        display: block;
+    }
+    .navbar__nav a{
+        display: none;
+    }
+    .banner h1{
+        font-size: 2rem;
+    }
+    .about__content, .our__content, .blog__content, .footer__content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
